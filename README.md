@@ -13,8 +13,18 @@ You can install these libraries using pip:
 
 pip install pandas matplotlib
 Dataset
-The code reads data from a CSV file located at D:/Anaconda/data.csv. You should replace this path with the path to your own CSV file.
+The code reads data from a CSV file located at (https://www.kaggle.com/datasets/davinascimento/data-to-learn-data-science). You should replace this path with the path to your own CSV file.
 
+
+***About Dataset***
+This dataset captures various metrics from exercise sessions, including heart rate (pulse), maximum heart rate (maxpulse), duration, and calories burned. It is ideal for analyzing patterns in fitness performance, exploring relationships between heart rate and calorie expenditure, or building predictive models for health and exercise.
+
+***Attributes:***
+
+Duration: Length of the workout session (in minutes).
+Pulse: Average heart rate during the session (in beats per minute).
+Maxpulse: Maximum heart rate reached during the session (in beats per minute).
+Calories: Estimated calories burned during the session.
 ***Visualizations***
 The following visualizations are covered in this project:
 
@@ -38,4 +48,4 @@ Run the Python script to generate various visualizations.
 You can modify the script to analyze different parts of your dataset or experiment with other types of plots.
 Notes
 Ensure the dataset has the appropriate column names (like Duration, Calories, Maxpulse, etc.) as used in the plots.
-The file path in the code (D:/Anaconda/data.csv) needs to be replaced with the correct path where your CSV file is stored.
+The file path in the code (https://www.kaggle.com/datasets/davinascimento/data-to-learn-data-science) needs to be replaced with the correct path where your CSV file is stored.
